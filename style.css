@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;   
+    margin: 0;
+   height: 100vh;
+    overflow-x: hidden;
+
+    background-color: antiquewhite;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    width: 100%;
+   height: 700px;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    outline: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: rgb(207, 161, 75);
+color: rgb(207, 161, 75);
+padding: 5px;
+}
+h3{
+    color:rgb(207, 161, 75);
+}
+.btn{
+    background-color: rgb(207, 161, 75);
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+   
+
+}
+.btn:active{
+    transform: scale(97%);
+}
+
+@media  (max-width:1100px){
+    .continer-page{
+        flex-wrap: wrap;
+       
+    }
+}
+
+
+
+.continer-page{
+    display: flex;
+align-items: center;
+
+width: 90%;
+margin-left: 20px;
+gap: 10px 50px;
+    background-color: bisque;
+    border-radius: 40px;
+    padding: 40px;
+
+}
+
+.img {
+    
+  background-image: url("relaxation-ocean-recreation-tourism-day.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  width: 800px;
+    border-radius:20px ;
+  height: 800px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 800px;
+    width: 600px;
+    align-items: center;
+    justify-items: center;
+}
+.stats{
+    box-shadow: 30px 20px 181px 64px rgba(207,161,75,0.19);
+    -webkit-box-shadow: 30px 20px 181px 64px rgba(207,161,75,0.19);
+    -moz-box-shadow: 30px 20px 181px 64px rgba(207,161,75,0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 161, 75);
+    padding: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+}
+main{
+    padding: 50px;
+}
