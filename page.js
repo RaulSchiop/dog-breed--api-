@@ -35,8 +35,8 @@ function showData(breeds) {
 
     info.innerHTML = `
         <div class="stats age">age: ${min_life_expectancy}-${max_life_expectancy}</div>
-        <div class="stats height">Height: ${min_height_female}-${max_height_male}</div>
-        <div class="stats weight">Weight: ${min_weight_female}-${max_weight_male}</div>
+        <div class="stats height">Height: ${Math.round(min_height_female*2.54)}-${Math.round(max_height_male*2.54)} cm</div>
+        <div class="stats weight">Weight: ${Math.round(min_weight_female*0.453592)}-${Math.round(max_weight_male*0.453592)} kg</div>
         <div class="stats energy">Energy: ${energy}/5</div>
         <div class="stats trainability">Trainability: ${trainability}/5</div>
         <div class="stats barking">Barking: ${barking}/5</div>
